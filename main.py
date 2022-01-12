@@ -1,19 +1,17 @@
 import requests
 from twilio.rest import Client
 
-# Home Coordinates
+# YOUR COORDINATES
 MY_LAT = 19.199485
 MY_LONG = 72.968055
 
 # Twilio Info
-account_sid = "ACdb1ebbfe1625fcda5b5e5eb0a31c8035"
-auth_token = "649f038544507acaf487c8da2f257bdd"
+account_sid = "YOUR TWILIO ACCOUNT_SID"
+auth_token = "YOUR TWILIO ACCOUNT AUTH_TOKEN"
 
-# Test Coordinates Rio De Janeiro
-# MY_LAT = -22.906847
-# MY_LONG = -43.172897
 
-AUTH_KEY = "bd79b3023b97c23199a5b0543d86b12d"
+# OPENWEATHERMAP API_KEY
+AUTH_KEY = "YOUR OPENWEATHERMAP API_KEY"
 
 UNIT = "metric"
 
@@ -46,7 +44,7 @@ for hour in range(13):
 if is_going_to_rain:
     client = Client(account_sid, auth_token)
     message = client.messages.create(body=f"Bring an Umbrella.\nThere will be {current_weather} Today.",
-                                     from_='+18502045510',
-                                     to='+917977191236')
+                                     from_='TWILIO VIRTUAL PHONE NUMBER',
+                                     to='YOUR TWILIO REGISTERED PHONE NUMBER')
     print(message.status)
 
