@@ -24,3 +24,7 @@
 
 - Finally Change the specified coordinates to your own location coordinates 
 - you find the coordinates of your own location [Here](https://www.latlong.net/)
+
+- To automate this task and make it send you an sms everytime it's gonna rain you can use [PythonAnywhere](https://www.pythonanywhere.com/)
+- go to this website and signup for a free account and then upload this file there in the FILES option
+- then to run this daily at a specfied time go to TASKS and create a new task, specify the time and in the command tab enter **python3 filename.py** in this case python3 main.py
