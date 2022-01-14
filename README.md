@@ -1,6 +1,8 @@
 # Rain-Notifier
 
-## sends you an sms if it's going to rain on that day
+## sends you an sms if there'll be a rainfall, thunderstorm, snowfall on that day
+
+![Messages](https://user-images.githubusercontent.com/84438200/149452084-7529cfd7-f98c-404e-a81c-8fea0ce8f412.jpg)
 
 
 ### How to use this script
