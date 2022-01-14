@@ -1,5 +1,7 @@
 # Rain-Notifier
 
+## sends you an sms if it's going to rain on that day
+
 
 ### How to use this script
 
